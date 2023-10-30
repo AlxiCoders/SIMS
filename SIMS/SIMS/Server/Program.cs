@@ -17,7 +17,6 @@ builder.Services.AddDbContextPool<StudentDbContext>(Options =>
     Options.UseSqlServer(builder.Configuration.GetConnectionString("Studentinfo"))
 );
 
-builder.Services.AddScoped<IDepartmentRepository,DepartmentRepository>();
 
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
@@ -35,6 +34,18 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
+// Register repositories with dependency injection.
+// These repositories will be used for data access.
+builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
+builder.Services.AddScoped<IHodRepository, HodRepository>();
+builder.Services.AddScoped<ICoordinatorRepository, CoordinatorRepository>();
+builder.Services.AddScoped<IFacultyRepository, FacultyRepository>();
+builder.Services.AddScoped<ISemesterRepository, SemesterRepository>();
+builder.Services.AddScoped<ISubjectRepository, SubjectRepository>();
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();
+builder.Services.AddScoped<IMarkRepository, MarkRepository>();
 
 var app = builder.Build();
 
