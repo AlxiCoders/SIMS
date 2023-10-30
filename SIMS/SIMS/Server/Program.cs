@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
 using SIMS.Server.Data;
 using SIMS.Server.Models;
+using SIMS.Server.Repositories;
+using SIMS.Server.Repositories.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,13 @@ var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
+
+builder.Services.AddDbContextPool<StudentDbContext>(Options =>
+    Options.UseSqlServer(builder.Configuration.GetConnectionString("Studentinfo"))
+);
+
+builder.Services.AddScoped<IDepartmentRepository,DepartmentRepository>();
+
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
@@ -24,6 +33,9 @@ builder.Services.AddAuthentication()
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -31,6 +43,9 @@ if (app.Environment.IsDevelopment())
 {
     app.UseMigrationsEndPoint();
     app.UseWebAssemblyDebugging();
+
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 else
 {

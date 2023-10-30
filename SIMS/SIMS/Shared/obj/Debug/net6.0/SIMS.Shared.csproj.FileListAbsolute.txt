@@ -1,0 +1,11 @@
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Shared\bin\Debug\net6.0\SIMS.Shared.deps.json
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Shared\bin\Debug\net6.0\SIMS.Shared.dll
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Shared\bin\Debug\net6.0\SIMS.Shared.pdb
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Shared\obj\Debug\net6.0\SIMS.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Shared\obj\Debug\net6.0\SIMS.Shared.AssemblyInfoInputs.cache
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Shared\obj\Debug\net6.0\SIMS.Shared.AssemblyInfo.cs
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Shared\obj\Debug\net6.0\SIMS.Shared.csproj.CoreCompileInputs.cache
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Shared\obj\Debug\net6.0\SIMS.Shared.dll
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Shared\obj\Debug\net6.0\refint\SIMS.Shared.dll
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Shared\obj\Debug\net6.0\SIMS.Shared.pdb
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Shared\obj\Debug\net6.0\ref\SIMS.Shared.dll
