@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using SIMS.Server.Repositories.Contracts;
 using SIMS.Shared;
+using SIMS.Shared.Dtos;
 
 namespace SIMS.Server.Controllers
 {
@@ -39,5 +40,32 @@ namespace SIMS.Server.Controllers
                     "Error retrieving data from the database");
             }
         }
-    }
+
+            [HttpGet("{id:int}")]
+            public async Task<ActionResult<Department>>GetDepartment(int id)
+            {
+                try
+                {
+                    var faculty = await this.departmentRepository.GetDepartment(id);
+
+                    if (faculty == null)
+                    {
+                        return BadRequest();
+                    }
+                    else
+                    {
+                    return faculty;
+                    }
+
+                }
+                catch (Exception)
+                {
+
+                    return StatusCode(StatusCodes.Status500InternalServerError,
+                        "Error retrieving data from the database");
+                }
+
+            }
+        
+    }  
 }
