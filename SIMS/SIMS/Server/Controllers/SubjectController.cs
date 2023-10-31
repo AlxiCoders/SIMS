@@ -11,7 +11,7 @@ namespace SIMS.Server.Controllers
     {
         //Dependency injection of interface by creating instance of it
         private readonly ISubjectRepository SubjectRepository;
-        public SubjectController(ISubjectRepository SubjectRepositories)
+        public SubjectController(ISubjectRepository SubjectRepository)
         {
             this.SubjectRepository = SubjectRepository;
         }

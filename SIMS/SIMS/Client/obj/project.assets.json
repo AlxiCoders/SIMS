@@ -1962,19 +1962,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shivs\\.nuget\\packages\\": {}
+    "C:\\Users\\karna\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shivs\\Documents\\GitHub\\SIMS\\SIMS\\SIMS\\Client\\SIMS.Client.csproj",
+      "projectUniqueName": "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\SIMS.Client.csproj",
       "projectName": "SIMS.Client",
-      "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\SIMS\\SIMS\\SIMS\\Client\\SIMS.Client.csproj",
-      "packagesPath": "C:\\Users\\shivs\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shivs\\Documents\\GitHub\\SIMS\\SIMS\\SIMS\\Client\\obj\\",
+      "projectPath": "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\SIMS.Client.csproj",
+      "packagesPath": "C:\\Users\\karna\\.nuget\\packages\\",
+      "outputPath": "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\shivs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\karna\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1988,8 +1988,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\shivs\\Documents\\GitHub\\SIMS\\SIMS\\SIMS\\Shared\\SIMS.Shared.csproj": {
-              "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\SIMS\\SIMS\\SIMS\\Shared\\SIMS.Shared.csproj"
+            "D:\\Project\\SIMS\\SIMS\\SIMS\\Shared\\SIMS.Shared.csproj": {
+              "projectPath": "D:\\Project\\SIMS\\SIMS\\SIMS\\Shared\\SIMS.Shared.csproj"
             }
           }
         }
@@ -2033,12 +2033,18 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+            "version": "[6.0.21, 6.0.21]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

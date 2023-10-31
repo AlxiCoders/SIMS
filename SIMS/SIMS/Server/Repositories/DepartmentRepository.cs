@@ -23,5 +23,24 @@ namespace SIMS.Server.Repositories
             var category = await studentDbContext.Departments.SingleOrDefaultAsync(c => c.Id == id);
             return category;
         }
+
+        public async Task DeleteDepartment(int id)
+        {
+            var item = await studentDbContext.Departments.FindAsync(id);
+            studentDbContext.Departments.Remove(item);
+            await this.studentDbContext.SaveChangesAsync();
+        }
+
+        public async Task AddDepartment(Department department)
+        {
+            studentDbContext.Departments.Add(department);
+            await this.studentDbContext.SaveChangesAsync();
+        }
+
+        public async Task UpdateDepartment(Department department)
+        {
+            studentDbContext.Departments.Update(department);
+            await this.studentDbContext.SaveChangesAsync();
+        }
     }
 }

@@ -41,31 +41,104 @@ namespace SIMS.Server.Controllers
             }
         }
 
-            [HttpGet("{id:int}")]
-            public async Task<ActionResult<Department>>GetDepartment(int id)
+        [HttpGet("{id:int}")]
+        public async Task<ActionResult<Department>> GetDepartment(int id)
+        {
+            try
             {
-                try
+                var faculty = await this.departmentRepository.GetDepartment(id);
+
+                if (faculty == null)
                 {
-                    var faculty = await this.departmentRepository.GetDepartment(id);
-
-                    if (faculty == null)
-                    {
-                        return BadRequest();
-                    }
-                    else
-                    {
-                    return faculty;
-                    }
-
+                    return BadRequest();
                 }
-                catch (Exception)
+                else
                 {
-
-                    return StatusCode(StatusCodes.Status500InternalServerError,
-                        "Error retrieving data from the database");
+                    return faculty;
                 }
 
             }
+            catch (Exception)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
+
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> DeleteDept(int id)
+        {
+            try 
+            {
+                var department = await this.departmentRepository.GetDepartment(id);
+                if(department == null)
+                {
+                    return BadRequest();
+                }
+                else
+                {
+                    await this.departmentRepository.DeleteDepartment(id);
+                    return NoContent();
+                }
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
+
+        }
+
+        [HttpPost]
+        public async Task<ActionResult>AddDept(Department department)
+        {
+            try
+            {
+                if (department == null)
+                {
+                    return BadRequest();
+                }
+                else
+                {
+                    await this.departmentRepository.AddDepartment(department);
+                    return NoContent();
+                }
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
+
+        }
+
+        [HttpPut]
+        public async Task<ActionResult>UpdateDepart(Department department)
+        {
+            try
+            {
+                if (department == null)
+                {
+                    return BadRequest();
+                }
+                else
+                {
+                    await this.departmentRepository.UpdateDepartment(department);
+                    return NoContent();
+                }
+            }
+            catch (Exception)
+            {
+
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                    "Error retrieving data from the database");
+            }
+            
+        }
         
     }  
 }
