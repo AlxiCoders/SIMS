@@ -108,6 +108,11 @@ C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\obj\Debug\net6.0\refint\SI
 C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\obj\Debug\net6.0\SIMS.Server.pdb
 C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\obj\Debug\net6.0\SIMS.Server.genruntimeconfig.cache
 C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\obj\Debug\net6.0\ref\SIMS.Server.dll
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\SIMS.Client.staticwebassets.runtime.json
 D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\appsettings.Development.json
 D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\appsettings.json
 D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugHost.dll
@@ -116,7 +121,6 @@ D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\BlazorDebugProxy\BrowserDebugP
 D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.CSharp.dll
 D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\BlazorDebugProxy\Microsoft.CodeAnalysis.dll
 D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\BlazorDebugProxy\Newtonsoft.Json.dll
-D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\SIMS.Client.staticwebassets.runtime.json
 D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\SIMS.Server.staticwebassets.runtime.json
 D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\SIMS.Server.exe
 D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\SIMS.Server.deps.json
@@ -222,7 +226,3 @@ D:\Project\SIMS\SIMS\SIMS\Server\obj\Debug\net6.0\refint\SIMS.Server.dll
 D:\Project\SIMS\SIMS\SIMS\Server\obj\Debug\net6.0\SIMS.Server.pdb
 D:\Project\SIMS\SIMS\SIMS\Server\obj\Debug\net6.0\SIMS.Server.genruntimeconfig.cache
 D:\Project\SIMS\SIMS\SIMS\Server\obj\Debug\net6.0\ref\SIMS.Server.dll
-C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Microsoft.OpenApi.dll
-C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll

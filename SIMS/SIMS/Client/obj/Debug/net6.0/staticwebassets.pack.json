@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\SIMS.Client.styles.css"
     },
     {
+      "Id": "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\wwwroot\\Assets\\edit.png",
+      "PackagePath": "staticwebassets\\Assets\\edit.png"
+    },
+    {
+      "Id": "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\wwwroot\\Assets\\pencil.png",
+      "PackagePath": "staticwebassets\\Assets\\pencil.png"
+    },
+    {
       "Id": "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\wwwroot\\Images\\Coordinators\\Coordinator1.png",
       "PackagePath": "staticwebassets\\Images\\Coordinators\\Coordinator1.png"
     },

@@ -838,7 +838,9 @@ C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Client\obj\Debug\net6.0\SIMS.Clie
 C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Client\obj\Debug\net6.0\refint\SIMS.Client.dll
 C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Client\obj\Debug\net6.0\SIMS.Client.pdb
 C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Client\obj\Debug\net6.0\ref\SIMS.Client.dll
+D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
+D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.21.6q8k0xdj8e.js
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\icudt.dat
@@ -877,6 +879,10 @@ D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.W
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\mscorlib.dll
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll
+D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\SIMS.Client.dll
+D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\SIMS.Client.pdb
+D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\SIMS.Shared.dll
+D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\SIMS.Shared.pdb
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\System.AppContext.dll
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\System.Buffers.dll
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\System.Collections.Concurrent.dll
@@ -1037,12 +1043,6 @@ D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.dll
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll
-D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
-D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.21.6q8k0xdj8e.js
-D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\SIMS.Client.dll
-D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\SIMS.Client.pdb
-D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\SIMS.Shared.dll
-D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\SIMS.Shared.pdb
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 D:\Project\SIMS\SIMS\SIMS\Client\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz

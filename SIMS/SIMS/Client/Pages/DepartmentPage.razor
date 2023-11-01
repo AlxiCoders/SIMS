@@ -1,0 +1,83 @@
+﻿@page "/department"
+@page "/department/{Id:int}"
+
+@inherits DepartmentBase
+
+<h3>Department</h3>
+
+
+@* Department Data Display Start*@
+@if (Departments == null)
+{
+    <h3>Data not found</h3>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Status</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var dept in Departments)
+            {
+                <tr>
+                
+                <td>@dept.Id</td>
+                <td>@dept.Name</td>
+                <td>@dept.Status</td>
+                    <td>
+                        <a href="/department/@dept.Id">
+                            <img src="/Assets/edit.png" width="30" height="30" @onclick="()=>GetData(dept)"/>
+                        </a>
+                    </td>
+
+            </tr>
+            }
+        </tbody>
+    </table>
+}
+@* Department Data Display End *@
+
+@if (IsDepart==false)
+{
+    <form @onsubmit="SubmitForm">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" class="form-control" @bind="TDept.Name" />
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="myCheckbox" @bind="TDept.Status" />
+            <label class="form-check-label" for="myCheckbox">Check if Assigned</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+}
+else
+{
+    <EditForm Model="@Dept">
+        <!-- Form fields go here -->
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <InputText id="name" @bind-Value="Dept.Name" class="form-control" />
+        </div>
+        <div class="form-group">
+            <input class="form-check-input" type="checkbox" id="myCheckbox" @bind-value="Dept.Status" />
+            <label class="form-check-label" for="myCheckbox">Check if Assigned</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary" @onclick="()=>EditForm()">Submit</button>
+    </EditForm>
+}
+@* Form Start *@
+
+   
+
+
+
+@* Form End *@
+ 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iw58c3d1uEuaC9XhSvaaiaLBg7+MXdf8p4D5kWl9Q6Y=",
+  "Hash": "bCjF9JWx6WsFw3JxVsjeHf2fu1NsBuVrj50myPHwf9U=",
   "Source": "SIMS.Server",
   "BasePath": "_content/SIMS.Server",
   "Mode": "Default",
@@ -8034,6 +8034,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\obj\\Debug\\net6.0\\scopedcss\\bundle\\SIMS.Client.styles.css"
+    },
+    {
+      "Identity": "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\wwwroot\\Assets\\edit.png",
+      "SourceId": "SIMS.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Assets/edit.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\edit.png"
+    },
+    {
+      "Identity": "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\wwwroot\\Assets\\pencil.png",
+      "SourceId": "SIMS.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "Assets/pencil.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Assets\\pencil.png"
     },
     {
       "Identity": "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\wwwroot\\css\\app.css",
