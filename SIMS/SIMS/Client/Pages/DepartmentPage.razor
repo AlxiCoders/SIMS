@@ -2,35 +2,49 @@
 @page "/department/{Id:int}"
 
 @using Microsoft.AspNetCore.Authorization
-@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
 @attribute [Authorize]
-
 @inherits DepartmentBase
 
-@if (Id is null)
-{
-    <h2>Create New Department</h2>
-}
-else
-{
-    <h2>Update @Temp_Dept.Name</h2>
-}
+@using Blazorise
 
-@* Form Start *@
-<EditForm Model="@Temp_Dept">
-    <!-- Form fields go here -->
-    <div class="form-group">
-        <label for="name">Name:</label>
-        <InputText id="name" @bind-Value="Temp_Dept.Name" class="form-control" />
-    </div>
-    <div class="form-group">
-        <input class="form-check-input" type="checkbox" id="myCheckbox" @bind-value="Temp_Dept.Status" />
-        <label class="form-check-label" for="myCheckbox">Check if Assigned</label>
-    </div>
+@* Modal Start *@
+<Button Color="Color.Primary" Clicked="@ShowModal">Create Department</Button>
 
-    <button type="submit" class="btn btn-primary" @onclick="()=>SubmitForm()">Submit</button>
-</EditForm>
-@* Form End *@
+<Modal @ref="modalRef">
+    <ModalContent Centered>
+        <ModalHeader>
+            @if (Id is null)
+            {
+                <ModalTitle>Department Details</ModalTitle>
+            }
+            else
+            {
+                <ModalTitle>Update @Temp_Dept.Name</ModalTitle>
+            }
+            <CloseButton />
+        </ModalHeader>
+        <ModalBody>
+            <Field>
+                <div class="form-group">
+                    <lable for="name">Name:</lable>
+                    <input type="text" @bind="Temp_Dept.Name" class="form-control" />
+                </div>
+            </Field>
+            <Field>
+                <div class="form-group">
+                    <input type="checkbox" value="Temp_Dept.Status" @bind="Temp_Dept.Status" />
+                    <label>Check if Assigned</label>
+                </div>
+            </Field>
+        </ModalBody>
+        <ModalFooter>
+            <Button Color="Color.Secondary" Clicked="@HideModal">Close</Button>
+            <Button Color="Color.Primary" @onclick="()=>SubmitForm()">Submit</Button>
+        </ModalFooter>
+    </ModalContent>
+</Modal>
+
+@* Modal End *@
 
 @* Department Data Display Start*@
 @if (Departments == null)

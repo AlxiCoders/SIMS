@@ -205,14 +205,14 @@
       "netstandard.dll": "sha256-tRd8cJrm2jrfdHVAhxop4KpXsOTSdIq390XUlbKeE9U=",
       "System.Private.CoreLib.dll": "sha256-srLiFzlxO2Mt3CHpnujmljIUDZTd01TPKPNZ61tQplc=",
       "SIMS.Shared.dll": "sha256-Bdz9bpBf4qIR1WHHyFZl2y07thPX6zi5VP7ZJyJkhks=",
-      "SIMS.Client.dll": "sha256-VaUl4n0jxGhYJDoZ9Kn9gp17MrFpbbBYWJP1AUCOJMg="
+      "SIMS.Client.dll": "sha256-f\/SBprNgXoVGHSZie13EldRXiZO55OeAIdft1Naj1Eo="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
       "SIMS.Shared.pdb": "sha256-wd+RwMC1HrDoNNoH\/YJQwazhZmQfWZGGVCQLYcYzZmU=",
-      "SIMS.Client.pdb": "sha256-RgeH5Sf+b8AQ1unzahvIOGlafFCf1QH6G8s1imiwWNA="
+      "SIMS.Client.pdb": "sha256-YCj6SOU\/0LuuDIqZ1WBT1c\/x3PosHuhlaXN8hHUOnTw="
     },
     "runtime": {
       "dotnet.6.0.23.if85c14r78.js": "sha256-ZwZyyu2NI0gFyE96Al4f0bglhDBXW\/uMhBqWLYgjWms=",
