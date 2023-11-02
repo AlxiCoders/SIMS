@@ -231,3 +231,8 @@ D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Blazorise.Bootstrap.dll
 D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Blazorise.Icons.FontAwesome.dll
 D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Blazorise.Licensing.dll
 D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\DeepCloner.dll
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Blazorise.dll
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Blazorise.Bootstrap.dll
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Blazorise.Icons.FontAwesome.dll
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Blazorise.Licensing.dll
+C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\DeepCloner.dll

@@ -8870,19 +8870,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\karna\\.nuget\\packages\\": {}
+    "C:\\Users\\shivs\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\SIMS\\SIMS\\SIMS\\Server\\SIMS.Server.csproj",
+      "projectUniqueName": "C:\\Users\\shivs\\Documents\\GitHub\\SIMS\\SIMS\\SIMS\\Server\\SIMS.Server.csproj",
       "projectName": "SIMS.Server",
-      "projectPath": "D:\\Project\\SIMS\\SIMS\\SIMS\\Server\\SIMS.Server.csproj",
-      "packagesPath": "C:\\Users\\karna\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\SIMS\\SIMS\\SIMS\\Server\\obj\\",
+      "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\SIMS\\SIMS\\SIMS\\Server\\SIMS.Server.csproj",
+      "packagesPath": "C:\\Users\\shivs\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shivs\\Documents\\GitHub\\SIMS\\SIMS\\SIMS\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\karna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shivs\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8896,11 +8896,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\SIMS.Client.csproj": {
-              "projectPath": "D:\\Project\\SIMS\\SIMS\\SIMS\\Client\\SIMS.Client.csproj"
+            "C:\\Users\\shivs\\Documents\\GitHub\\SIMS\\SIMS\\SIMS\\Client\\SIMS.Client.csproj": {
+              "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\SIMS\\SIMS\\SIMS\\Client\\SIMS.Client.csproj"
             },
-            "D:\\Project\\SIMS\\SIMS\\SIMS\\Shared\\SIMS.Shared.csproj": {
-              "projectPath": "D:\\Project\\SIMS\\SIMS\\SIMS\\Shared\\SIMS.Shared.csproj"
+            "C:\\Users\\shivs\\Documents\\GitHub\\SIMS\\SIMS\\SIMS\\Shared\\SIMS.Shared.csproj": {
+              "projectPath": "C:\\Users\\shivs\\Documents\\GitHub\\SIMS\\SIMS\\SIMS\\Shared\\SIMS.Shared.csproj"
             }
           }
         }
@@ -8967,7 +8967,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

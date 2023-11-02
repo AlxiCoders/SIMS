@@ -9,57 +9,57 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = SIMS.Client
 build_property.RootNamespace = SIMS.Client
-build_property.ProjectDir = D:\Project\SIMS\SIMS\SIMS\Client\
+build_property.ProjectDir = C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Client\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Project\SIMS\SIMS\SIMS\Client
+build_property.MSBuildProjectDirectory = C:\Users\shivs\Documents\GitHub\SIMS\SIMS\SIMS\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Project/SIMS/SIMS/SIMS/Client/App.razor]
+[C:/Users/shivs/Documents/GitHub/SIMS/SIMS/SIMS/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/SIMS/SIMS/SIMS/Client/Pages/Authentication.razor]
+[C:/Users/shivs/Documents/GitHub/SIMS/SIMS/SIMS/Client/Pages/Authentication.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/SIMS/SIMS/SIMS/Client/Pages/Dashboard.razor]
+[C:/Users/shivs/Documents/GitHub/SIMS/SIMS/SIMS/Client/Pages/Dashboard.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/SIMS/SIMS/SIMS/Client/Pages/DepartmentPage.razor]
+[C:/Users/shivs/Documents/GitHub/SIMS/SIMS/SIMS/Client/Pages/DepartmentPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVwYXJ0bWVudFBhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/SIMS/SIMS/SIMS/Client/Pages/Index.razor]
+[C:/Users/shivs/Documents/GitHub/SIMS/SIMS/SIMS/Client/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/SIMS/SIMS/SIMS/Client/Pages/Spinner.razor]
+[C:/Users/shivs/Documents/GitHub/SIMS/SIMS/SIMS/Client/Pages/Spinner.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3Bpbm5lci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/SIMS/SIMS/SIMS/Client/Shared/LoginDisplay.razor]
+[C:/Users/shivs/Documents/GitHub/SIMS/SIMS/SIMS/Client/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/SIMS/SIMS/SIMS/Client/Shared/RedirectToLogin.razor]
+[C:/Users/shivs/Documents/GitHub/SIMS/SIMS/SIMS/Client/Shared/RedirectToLogin.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFJlZGlyZWN0VG9Mb2dpbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/SIMS/SIMS/SIMS/Client/Shared/SurveyPrompt.razor]
+[C:/Users/shivs/Documents/GitHub/SIMS/SIMS/SIMS/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/SIMS/SIMS/SIMS/Client/_Imports.razor]
+[C:/Users/shivs/Documents/GitHub/SIMS/SIMS/SIMS/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Project/SIMS/SIMS/SIMS/Client/Shared/MainLayout.razor]
+[C:/Users/shivs/Documents/GitHub/SIMS/SIMS/SIMS/Client/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-nvwku74qgn
 
-[D:/Project/SIMS/SIMS/SIMS/Client/Shared/NavMenu.razor]
+[C:/Users/shivs/Documents/GitHub/SIMS/SIMS/SIMS/Client/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-01uzz3nyai

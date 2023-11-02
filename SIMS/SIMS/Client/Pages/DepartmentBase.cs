@@ -29,9 +29,10 @@ namespace SIMS.Client.Pages
                 await DepartmentService.EditDept(Temp_Dept);
             }           
         }
-        protected async Task GetDept(Department department)
+        protected  void GetDept(Department department)
         {
            Temp_Dept = department;          
         }
+        protected async Task DeleteDept(int id) =>await DepartmentService.Delete_Department(id);
     }
 }
