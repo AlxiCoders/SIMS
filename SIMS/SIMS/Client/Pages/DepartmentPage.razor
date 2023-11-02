@@ -1,15 +1,17 @@
 ﻿@page "/department"
 @page "/department/{Id:int}"
 
-@inherits DepartmentBase
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@attribute [Authorize]
 
-<h3>Department</h3>
+@inherits DepartmentBase
 
 
 @* Department Data Display Start*@
 @if (Departments == null)
 {
-    <h3>Data not found</h3>
+    <Spinner/>
 }
 else
 {
@@ -30,12 +32,14 @@ else
                 <td>@dept.Id</td>
                 <td>@dept.Name</td>
                 <td>@dept.Status</td>
-                    <td>
+                <td>
+                    <a href="/department/@dept.Id">
+                        <img src="/Assets/edit.png" width="30" height="30" @onclick="()=>GetDept(dept)"/>
+                    </a>
                         <a href="/department/@dept.Id">
-                            <img src="/Assets/edit.png" width="30" height="30" @onclick="()=>GetData(dept)"/>
+                            <img src="/Assets/delete.png" width="30" height="30" @onclick="()=>GetDept(dept)" />
                         </a>
-                    </td>
-
+                </td>
             </tr>
             }
         </tbody>
@@ -43,41 +47,18 @@ else
 }
 @* Department Data Display End *@
 
-@if (IsDepart==false)
-{
-    <form @onsubmit="SubmitForm">
-        <div class="form-group">
-            <label for="name">Name:</label>
-            <input type="text" id="name" class="form-control" @bind="TDept.Name" />
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="myCheckbox" @bind="TDept.Status" />
-            <label class="form-check-label" for="myCheckbox">Check if Assigned</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-}
-else
-{
-    <EditForm Model="@Dept">
+
+    <EditForm Model="@Temp_Dept">
         <!-- Form fields go here -->
         <div class="form-group">
             <label for="name">Name:</label>
-            <InputText id="name" @bind-Value="Dept.Name" class="form-control" />
+            <InputText id="name" @bind-Value="Temp_Dept.Name" class="form-control" />
         </div>
         <div class="form-group">
-            <input class="form-check-input" type="checkbox" id="myCheckbox" @bind-value="Dept.Status" />
+            <input class="form-check-input" type="checkbox" id="myCheckbox" @bind-value="Temp_Dept.Status" />
             <label class="form-check-label" for="myCheckbox">Check if Assigned</label>
         </div>
 
-        <button type="submit" class="btn btn-primary" @onclick="()=>EditForm()">Submit</button>
+        <button type="submit" class="btn btn-primary" @onclick="()=>SubmitForm()">Submit</button>
     </EditForm>
-}
-@* Form Start *@
-
-   
-
-
-
-@* Form End *@
  

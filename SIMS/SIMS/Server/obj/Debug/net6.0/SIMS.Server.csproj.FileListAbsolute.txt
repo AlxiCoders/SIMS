@@ -226,3 +226,8 @@ D:\Project\SIMS\SIMS\SIMS\Server\obj\Debug\net6.0\refint\SIMS.Server.dll
 D:\Project\SIMS\SIMS\SIMS\Server\obj\Debug\net6.0\SIMS.Server.pdb
 D:\Project\SIMS\SIMS\SIMS\Server\obj\Debug\net6.0\SIMS.Server.genruntimeconfig.cache
 D:\Project\SIMS\SIMS\SIMS\Server\obj\Debug\net6.0\ref\SIMS.Server.dll
+D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Blazorise.dll
+D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Blazorise.Bootstrap.dll
+D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Blazorise.Icons.FontAwesome.dll
+D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\Blazorise.Licensing.dll
+D:\Project\SIMS\SIMS\SIMS\Server\bin\Debug\net6.0\DeepCloner.dll

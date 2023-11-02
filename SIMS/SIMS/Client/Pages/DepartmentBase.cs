@@ -10,26 +10,28 @@ namespace SIMS.Client.Pages
         [Inject]
         public IDepartmentService DepartmentService { get; set; }
         public IEnumerable<Department>? Departments { get; set; }
-        public Department TDept { get; set; }=new Department();
+        public Department Temp_Dept { get; set; }=new Department();
 
-        public Department? Dept { get; set; }
-        public bool IsDepart { get; set; }
 
         [Parameter]
-        public int Id {  get; set; }
+        public int? Id {  get; set; }
 
 
         protected override async Task OnInitializedAsync() => Departments = await DepartmentService.GetDepartments();
-        public async Task SubmitForm() => await DepartmentService.Create_Department(TDept);
-        public async Task EditForm()
+        protected async Task SubmitForm()
         {
-            
-            await DepartmentService.EditDept(Dept);
+            if (Id == 0)
+            {
+                await DepartmentService.Create_Department(Temp_Dept);
+            }
+            else
+            {
+                await DepartmentService.EditDept(Temp_Dept);
+            }           
         }
-        public async Task GetData(Department hero)
+        protected async Task GetDept(Department department)
         {
-            IsDepart = true;
-            Dept=hero;
+           Temp_Dept = department;          
         }
     }
 }
