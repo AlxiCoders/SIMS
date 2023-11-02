@@ -18,12 +18,6 @@ namespace SIMS.Server.Repositories
             var departments = await this.studentDbContext.Departments.ToListAsync();
             return departments;
         }
-        public async Task<Department> GetDepartment(int id)
-        {
-            var category = await studentDbContext.Departments.SingleOrDefaultAsync(c => c.Id == id);
-            return category;
-        }
-
         public async Task DeleteDepartment(int id)
         {
             var item = await studentDbContext.Departments.FindAsync(id);

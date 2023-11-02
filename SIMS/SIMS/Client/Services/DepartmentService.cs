@@ -22,6 +22,13 @@ namespace SIMS.Client.Services
                 navigationManager.NavigateTo("/department",true);
         }
 
+        public async Task Delete_Department(int id)
+        {
+            await this.httpClient.DeleteAsync($"api/department/{id}");
+            navigationManager.NavigateTo("/department", true);
+
+        }
+
         public async Task EditDept(Department department)
         {
             await this.httpClient.PutAsJsonAsync($"api/department",department);

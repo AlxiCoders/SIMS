@@ -41,54 +41,11 @@ namespace SIMS.Server.Controllers
             }
         }
 
-        [HttpGet("{id:int}")]
-        public async Task<ActionResult<Department>> GetDepartment(int id)
-        {
-            try
-            {
-                var faculty = await this.departmentRepository.GetDepartment(id);
-
-                if (faculty == null)
-                {
-                    return BadRequest();
-                }
-                else
-                {
-                    return faculty;
-                }
-
-            }
-            catch (Exception)
-            {
-
-                return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Error retrieving data from the database");
-            }
-
-        }
-
         [HttpDelete("{id}")]
         public async Task<ActionResult> DeleteDept(int id)
         {
-            try 
-            {
-                var department = await this.departmentRepository.GetDepartment(id);
-                if(department == null)
-                {
-                    return BadRequest();
-                }
-                else
-                {
-                    await this.departmentRepository.DeleteDepartment(id);
-                    return NoContent();
-                }
-            }
-            catch (Exception)
-            {
-
-                return StatusCode(StatusCodes.Status500InternalServerError,
-                    "Error retrieving data from the database");
-            }
+            await this.departmentRepository.DeleteDepartment(id);
+            return NoContent();
 
         }
 

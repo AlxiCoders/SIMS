@@ -2,6 +2,7 @@
 using SIMS.Client.Services;
 using SIMS.Client.Services.Contracts;
 using SIMS.Shared;
+using Blazorise;
 
 namespace SIMS.Client.Pages
 {
@@ -29,9 +30,24 @@ namespace SIMS.Client.Pages
                 await DepartmentService.EditDept(Temp_Dept);
             }           
         }
-        protected async Task GetDept(Department department)
+        protected  void GetDept(Department department)
         {
-           Temp_Dept = department;          
+           Temp_Dept = department;
+            ShowModal();
         }
+        protected async Task DeleteDept(int id) =>await DepartmentService.Delete_Department(id);
+
+        //Functions for Modal Blazorise Start
+        protected Modal modalRef;
+        protected Task ShowModal()
+        {
+            return modalRef.Show();
+        }
+
+        protected Task HideModal()
+        {
+            return modalRef.Hide();
+        }
+        //Functions for Modal Blazorise End
     }
 }
